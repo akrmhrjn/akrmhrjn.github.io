@@ -17,7 +17,6 @@
 
   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700" rel="stylesheet">
 
-  <script src="https://kit.fontawesome.com/01f6f5c54a.js"></script>
 </head>
 
 <body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
@@ -344,19 +343,17 @@
         </div>
 
         <div class="col-md-7 mb-5 mb-md-0">
-          <form action="" class="site-form">
+          <form method="POST" action="https://formspree.io/akr.mhrjn@gmail.com" class="site-form">
             <h3 class="mb-5">Get In Touch</h3>
             <div class="form-group">
-              <input type="text" class="form-control px-3 py-4" placeholder="Your Name">
+              <input type="text" required name="name" class="form-control px-3 py-4" placeholder="Your Name">
             </div>
             <div class="form-group">
-              <input type="email" class="form-control px-3 py-4" placeholder="Your Email">
-            </div>
-            <div class="form-group">
-              <input type="email" class="form-control px-3 py-4" placeholder="Your Phone">
+              <input type="email" required name="email" class="form-control px-3 py-4" placeholder="Your Email">
             </div>
             <div class="form-group mb-5">
-              <textarea class="form-control px-3 py-4" cols="30" rows="10" placeholder="Write a Message"></textarea>
+              <textarea required class="form-control px-3 py-4" cols="30" rows="10" name="message"
+                placeholder="Write a Message"></textarea>
             </div>
             <div class="form-group">
               <input type="submit" class="btn btn-accent  px-4 py-3" value="Send Message">
@@ -417,6 +414,9 @@
   <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
   <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
   <script src="js/custom.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="https://kit.fontawesome.com/01f6f5c54a.js"></script>
+
 
   <!-- Google Map -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false">
